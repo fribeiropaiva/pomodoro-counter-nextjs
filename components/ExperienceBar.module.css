@@ -1,0 +1,35 @@
+.ExperienceBarContainer {
+  width: 80%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  height: 30px;
+  margin: auto;
+}
+
+.Bar {
+  height: 4px;
+  background: #dcdde0;
+  -webkit-flex: 1;
+  flex: 1;
+  margin: 0 5px;
+  position: relative;
+  border-radius: 20px;
+}
+
+.BarFill {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  background: green;
+}
+
+.CurrentXP {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 6px;
+}
