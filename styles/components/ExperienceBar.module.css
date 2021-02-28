@@ -15,9 +15,9 @@
   background: #dcdde0;
   -webkit-flex: 1;
   flex: 1;
-  margin: 0 5px;
+  margin: 0 1.5rem;
   position: relative;
-  border-radius: 20px;
+  border-radius: 4px;
 }
 
 .BarFill {
@@ -25,11 +25,12 @@
   height: 100%;
   position: absolute;
   background: green;
+  border-radius: 4px;
 }
 
 .CurrentXP {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 6px;
+  top: 10px;
 }
